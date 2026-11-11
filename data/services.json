@@ -1,0 +1,28 @@
+{
+  "services": [
+    {
+      "id": "braids",
+      "group": "Hair",
+      "name": "Braids",
+      "summary": "Neat braids, booked by style and length when you arrive at the bar.",
+      "detail": "The bar braids. Tell us the style you want in the note: knotless, box, cornrows, stitch, or another braid style. The braider confirms what can be done on the day.",
+      "duration": "Time depends on the style"
+    },
+    {
+      "id": "manicure",
+      "group": "Nails",
+      "name": "Manicure",
+      "summary": "Hands shaped, cared for, and finished at the bar.",
+      "detail": "A manicure for guests who want their nails fixed. Add the finish you want in the note. The bar confirms the appointment.",
+      "duration": "A bar appointment"
+    },
+    {
+      "id": "pedicure",
+      "group": "Nails",
+      "name": "Pedicure",
+      "summary": "Feet cared for at the beauty bar.",
+      "detail": "Pedicure appointments are taken at the bar. The bar is hiring pedicurists, and bookings are confirmed by the studio.",
+      "duration": "A bar appointment"
+    }
+  ]
+}

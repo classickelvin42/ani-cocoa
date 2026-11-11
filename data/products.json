@@ -1,0 +1,86 @@
+{
+  "note": "These are products visible on the Ani Cocoa Cosmetics shop shelf or named in the shop bio. Prices are not published here. The shop confirms the price.",
+  "products": [
+    {
+      "id": "canada-shelf",
+      "image": "images/cocoa-care.jpg",
+      "name": "Canada self-care shelf",
+      "brand": "Ani Cocoa Cosmetics",
+      "category": "house",
+      "blurb": "Original self-care brought in from Canada: beauty, skincare, and everyday care.",
+      "detail": "The shop account describes original self-care products from Canada. Ask the shop which pieces are in stock this week. The shelf changes."
+    },
+    {
+      "id": "ani-bag",
+      "image": "images/bags.jpg",
+      "name": "Ani Cocoa shopping bag",
+      "brand": "Ani Cocoa Cosmetics",
+      "category": "house",
+      "blurb": "The house bag, printed for the cosmetics shop.",
+      "detail": "White shopping bags from the Spintex shop, marked Ani Cocoa Cosmetics."
+    },
+    {
+      "id": "st-ives-citrus",
+      "image": "images/wash-pink.jpg",
+      "name": "Pink Lemon & Mandarin Orange body wash",
+      "brand": "St. Ives",
+      "category": "body",
+      "blurb": "A citrus body wash from the shop shelf.",
+      "detail": "The pink St. Ives bottle stocked at Ani Cocoa Cosmetics in Spintex."
+    },
+    {
+      "id": "st-ives-green",
+      "image": "images/wash-green.jpg",
+      "name": "St. Ives body wash",
+      "brand": "St. Ives",
+      "category": "body",
+      "blurb": "The green St. Ives wash beside the citrus bottle.",
+      "detail": "Stocked next to the pink St. Ives wash. Ask the shop for the scent currently on the shelf."
+    },
+    {
+      "id": "olay-peach",
+      "image": "images/wash-peach.jpg",
+      "name": "Olay peach body wash",
+      "brand": "Olay",
+      "category": "body",
+      "blurb": "Olay body wash from the illuminated shop wall.",
+      "detail": "The peach Olay bottle photographed on the Ani Cocoa shelf."
+    },
+    {
+      "id": "olay-cucumber",
+      "image": "images/washes.jpg",
+      "name": "Olay cucumber body wash",
+      "brand": "Olay",
+      "category": "body",
+      "blurb": "A cool Olay wash stocked with the peach bottle.",
+      "detail": "The cucumber Olay bottle on the same shelf in Spintex."
+    },
+    {
+      "id": "nivea-lotion",
+      "image": "images/lotion-blue.jpg",
+      "name": "Nivea body lotion",
+      "brand": "Nivea",
+      "category": "body",
+      "blurb": "The blue Nivea lotion from the shop.",
+      "detail": "Nivea body lotion stocked at the cosmetics shop. The shop confirms the size in stock."
+    },
+    {
+      "id": "old-spice",
+      "image": "images/fragrance.jpg",
+      "name": "Old Spice deodorant",
+      "brand": "Old Spice",
+      "category": "fragrance",
+      "blurb": "Old Spice, on the Ani Cocoa shelf.",
+      "detail": "The red Old Spice stick photographed in the shop. Ask which scent is in."
+    },
+    {
+      "id": "axe-spray",
+      "image": "images/shelf.jpg",
+      "name": "Axe body spray",
+      "brand": "Axe",
+      "category": "fragrance",
+      "blurb": "Axe body spray from the shop wall.",
+      "detail": "Black Axe cans on the Ani Cocoa Cosmetics shelf. Scent confirmed by the shop."
+    }
+  ]
+}

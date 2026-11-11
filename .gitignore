@@ -1,0 +1,5 @@
+.DS_Store
+data/shop.db
+__pycache__/
+.tools/
+.vercel/
