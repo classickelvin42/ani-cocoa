@@ -7,8 +7,9 @@
       "name": "Starfruit Sangria body wash",
       "brand": "Bath & Body Works",
       "category": "body",
-      "blurb": "A pink citrus body wash from the shop shelf.",
-      "detail": "Bath & Body Works Starfruit Sangria, stocked at the cosmetics shop. The shop confirms the price."
+      "price": 150,
+      "blurb": "A pink citrus wash, 295 ml, with the starfruit drawn on the label.",
+      "detail": "Bath & Body Works Starfruit Sangria, sitting with the other washes at the Spintex shop."
     },
     {
       "id": "bali-mango",
@@ -16,8 +17,9 @@
       "name": "Bali Mango body cream",
       "brand": "Bath & Body Works",
       "category": "body",
-      "blurb": "A mango body cream from the shop shelf.",
-      "detail": "Bath & Body Works Bali Mango body cream, stocked at the cosmetics shop. The shop confirms the price."
+      "price": 150,
+      "blurb": "A mango body cream in the bright tube, 226 g.",
+      "detail": "Bath & Body Works Bali Mango, kept with the creams at the Spintex shop."
     },
     {
       "id": "waikiki-coconut",
@@ -25,8 +27,9 @@
       "name": "Waikiki Beach Coconut",
       "brand": "Bath & Body Works",
       "category": "body",
-      "blurb": "A coconut body cream from the shop shelf.",
-      "detail": "Bath & Body Works Waikiki Beach Coconut, stocked at the cosmetics shop. The shop confirms the price."
+      "price": 150,
+      "blurb": "A coconut body cream in the green palm tube.",
+      "detail": "Bath & Body Works Waikiki Beach Coconut, from the same shelf in Spintex."
     },
     {
       "id": "canada-shelf",

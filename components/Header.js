@@ -1,4 +1,5 @@
 import Link from "next/link";
+import BagLink from "@/components/BagLink";
 
 export default function Header() {
   return (
@@ -10,6 +11,7 @@ export default function Header() {
       <nav className="nav" aria-label="Primary">
         <Link href="/shop">Shop</Link>
         <Link href="/contact">Visit</Link>
+        <BagLink />
         <Link className="btn btn-small" href="/book">Book</Link>
       </nav>
     </header>

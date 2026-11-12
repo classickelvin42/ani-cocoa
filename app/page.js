@@ -52,6 +52,7 @@ export default function HomePage() {
               <img src={product.image} alt="" />
               <p>{product.brand}</p>
               <h3>{product.name}</h3>
+              {product.price ? <p className="price">GHS {product.price}</p> : null}
             </Link>
           ))}
         </div>
