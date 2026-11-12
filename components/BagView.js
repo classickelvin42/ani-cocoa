@@ -51,7 +51,7 @@ export default function BagView() {
             <img src={line.product.image} alt="" />
             <div>
               <h2>{line.product.name}</h2>
-              <p>{line.product.price ? `GHS ${line.product.price}` : "Ask the shop"}</p>
+              <p className={line.product.price ? "price" : undefined}>{line.product.price ? `GHS ${line.product.price}` : "Ask the shop"}</p>
               <div className="qty">
                 <button type="button" aria-label="Fewer" onClick={() => setBagQty(line.id, line.qty - 1)}>−</button>
                 <span>{line.qty}</span>
