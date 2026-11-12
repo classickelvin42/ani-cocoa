@@ -66,14 +66,30 @@ export default function HomePage() {
           </div>
           <div className="house-grid">
             <article>
-              <img src="/images/hero-bar.jpg" alt="The beauty bar chair." />
+              <video
+                src="/videos/beauty-bar.mp4"
+                poster="/images/beauty-bar-poster.jpg"
+                autoPlay
+                muted
+                loop
+                playsInline
+                aria-label="Body-wave braids being finished in the beauty bar."
+              />
               <p className="room-index">01</p>
               <h3>The beauty bar</h3>
               <p>Braids, manicures, and pedicures. The chair is booked, then confirmed by the bar.</p>
               <Link href="/book">Book a chair</Link>
             </article>
             <article>
-              <img src="/images/shelf.jpg" alt="Bottles on the cosmetics shelf." />
+              <video
+                src="/videos/cosmetics-shop.mp4"
+                poster="/images/cosmetics-shop-poster.jpg"
+                autoPlay
+                muted
+                loop
+                playsInline
+                aria-label="The cosmetics shelves at the shop."
+              />
               <p className="room-index">02</p>
               <h3>The cosmetics shop</h3>
               <p>Beauty products and self-care brought from Canada. The shop confirms what is in.</p>
