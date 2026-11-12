@@ -46,7 +46,7 @@ export default function HomePage() {
           <h2>On the shelf.</h2>
           <Link className="text-link" href="/shop">See everything</Link>
         </div>
-        <div className="product-grid">
+        <div className="product-grid shelf-grid">
           {featured.map((product) => (
             <Link className="product-card" href={`/shop/${product.id}`} key={product.id}>
               <img src={product.image} alt="" />

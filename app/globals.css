@@ -181,6 +181,7 @@ p { margin: 0; }
 }
 
 .product-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.85rem 0.7rem; }
+.shelf-grid { grid-template-columns: 1fr; }
 .product-card { text-decoration: none; }
 .product-card img {
   width: 100%;
@@ -394,6 +395,7 @@ p { margin: 0; }
   }
   .service-card { height: 520px; }
   .product-grid { grid-template-columns: repeat(4, 1fr); gap: 1.1rem; }
+  .shelf-grid { grid-template-columns: repeat(3, 1fr); }
   .house { padding: 2rem 1.6rem 1.4rem; }
   .house-grid { grid-template-columns: 1fr 1fr; gap: 1.2rem; }
   .house-grid img { height: 340px; }

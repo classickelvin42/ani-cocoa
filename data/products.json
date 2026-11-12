@@ -2,6 +2,33 @@
   "note": "These are products visible on the Ani Cocoa Cosmetics shop shelf or named in the shop bio. Prices are not published here. The shop confirms the price.",
   "products": [
     {
+      "id": "starfruit-sangria",
+      "image": "images/shelf-starfruit.jpg",
+      "name": "Starfruit Sangria body wash",
+      "brand": "Bath & Body Works",
+      "category": "body",
+      "blurb": "A pink citrus body wash from the shop shelf.",
+      "detail": "Bath & Body Works Starfruit Sangria, stocked at the cosmetics shop. The shop confirms the price."
+    },
+    {
+      "id": "bali-mango",
+      "image": "images/shelf-bali.jpg",
+      "name": "Bali Mango body cream",
+      "brand": "Bath & Body Works",
+      "category": "body",
+      "blurb": "A mango body cream from the shop shelf.",
+      "detail": "Bath & Body Works Bali Mango body cream, stocked at the cosmetics shop. The shop confirms the price."
+    },
+    {
+      "id": "waikiki-coconut",
+      "image": "images/shelf-waikiki.jpg",
+      "name": "Waikiki Beach Coconut",
+      "brand": "Bath & Body Works",
+      "category": "body",
+      "blurb": "A coconut body cream from the shop shelf.",
+      "detail": "Bath & Body Works Waikiki Beach Coconut, stocked at the cosmetics shop. The shop confirms the price."
+    },
+    {
       "id": "canada-shelf",
       "image": "images/cocoa-care.jpg",
       "name": "Canada self-care shelf",
