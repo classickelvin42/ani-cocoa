@@ -1,5 +1,8 @@
 .DS_Store
 data/shop.db
+data/bookings.json
 __pycache__/
 .tools/
 .vercel/
+node_modules/
+.next/
