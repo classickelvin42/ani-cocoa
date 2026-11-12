@@ -229,14 +229,76 @@ p { margin: 0; }
 }
 .house-note a { text-decoration: none; color: var(--cocoa); }
 
-.footer { margin-top: 2.8rem; background: #2c1b12; color: #f6efe7; }
-.footer-inner { width: min(1120px, calc(100% - 2rem)); margin: 0 auto; padding: 2.4rem 0 2rem; }
-.footer-mark { font-family: var(--serif); font-size: clamp(3rem, 12vw, 5.2rem); line-height: 0.9; letter-spacing: -0.04em; }
-.footer-line { margin-top: 0.7rem; color: #e7d3c4; }
-.footer-links { display: flex; flex-wrap: wrap; gap: 0.7rem 1.15rem; margin-top: 1.3rem; }
-.footer-links a { text-decoration: none; font-size: 1.02rem; }
-.footer-fine { margin-top: 1rem; color: #cbb5a4; font-size: 0.9rem; }
-.footer-fine a { color: #f6efe7; text-decoration: none; }
+.footer {
+  margin-top: 3.2rem;
+  color: #f6efe7;
+  background:
+    radial-gradient(520px 220px at 100% 0%, rgba(166, 132, 98, 0.35), transparent 62%),
+    #24160f;
+  border-top: 1px solid rgba(231, 201, 164, 0.45);
+}
+.footer-inner { width: min(1120px, calc(100% - 2rem)); margin: 0 auto; padding: 2.2rem 0 1.4rem; }
+.footer-top {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.15rem;
+  padding-bottom: 1.4rem;
+  border-bottom: 1px solid rgba(246, 239, 231, 0.14);
+}
+.footer-kicker {
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  font-size: 0.72rem;
+  color: #e7c9a4;
+  margin: 0 0 0.45rem;
+}
+.footer-mark {
+  font-family: var(--serif);
+  font-size: clamp(3.4rem, 12vw, 5.8rem);
+  line-height: 0.86;
+  letter-spacing: -0.045em;
+}
+.footer-line { margin-top: 0.7rem; max-width: 24rem; color: #eadccf; }
+.footer-book {
+  background: #f6efe7;
+  color: #24160f;
+  border-color: #f6efe7;
+}
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.35rem;
+  padding: 1.45rem 0 1.2rem;
+}
+.footer-grid p {
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  color: #e7c9a4;
+  margin: 0 0 0.55rem;
+}
+.footer-grid a,
+.footer-grid span {
+  display: block;
+  text-decoration: none;
+  margin: 0.32rem 0;
+  color: #f6efe7;
+}
+.footer-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem 1.2rem;
+  justify-content: space-between;
+  padding-top: 0.95rem;
+  border-top: 1px solid rgba(246, 239, 231, 0.14);
+  color: #cbb5a4;
+  font-size: 0.84rem;
+}
+@media (min-width: 860px) {
+  .footer-top { flex-direction: row; align-items: flex-end; justify-content: space-between; }
+  .footer-grid { grid-template-columns: repeat(3, 1fr); gap: 2rem; }
+}
 
 .page-wrap, .book, .product-page, .done {
   width: min(720px, calc(100% - 1.6rem));
